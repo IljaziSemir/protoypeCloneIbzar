@@ -1,0 +1,35 @@
+.container {
+    height: 600px;
+    background-color: #F3F4F3;
+    display: flex;
+    justify-content: center;
+}
+
+.divContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 920px) {
+    .container {
+        height: 1100px;
+        width: 100%;
+        background-color: #F3F4F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .divContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+}

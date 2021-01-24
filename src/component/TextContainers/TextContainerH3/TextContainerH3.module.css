@@ -1,0 +1,10 @@
+.textContainer {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content:space-around;
+    overflow: visible;
+}

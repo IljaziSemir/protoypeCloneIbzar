@@ -1,0 +1,83 @@
+.containerAchat {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.containerDivAchat {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerDivAchat img {
+    width: 450px;
+}
+
+.noteAvisPrix {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.moyenneAvis {
+    display: flex;
+    justify-content: center;
+}
+
+.inputButton {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputQuantité {
+    height: 25px;
+    font-size: 1rem;
+    line-height: 1.71429;
+    padding: 9px;
+    background-color: #e6e6e6;
+    border: none;
+    padding-left: 110px;
+}
+
+.quantityLabel {
+    color: black;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    font-weight: 900;
+    pointer-events: none;
+}
+
+.quantityLabel::after {
+    content: ' - ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    line-height: 1px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 920px) {
+    .containerAchat {
+        height: 800px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}

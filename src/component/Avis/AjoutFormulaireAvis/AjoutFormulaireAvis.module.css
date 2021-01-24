@@ -1,0 +1,33 @@
+.containerFormulaire {
+    height: 330px;
+    width: 400px;
+    border : solid #A02123 2px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.formulaire {
+    margin: 20px 20px;
+}
+
+.divInput {
+    margin-top: 10px;
+}
+
+.croix {
+    width: 30px;
+    height: 30px;
+    color: #A02123;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.messageErreur {
+    color: #A02123;
+    font-size: 10px;
+}
+
+.inputNote {
+    width: 128px;
+}

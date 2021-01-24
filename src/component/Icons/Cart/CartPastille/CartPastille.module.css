@@ -1,0 +1,9 @@
+.pastillePanier {
+    width: 10px;
+    height: 10px;
+    background-color: #A02123;
+    border-radius: 50%;
+    position: absolute;
+    top: 28%;
+    margin-left: 20px;
+}

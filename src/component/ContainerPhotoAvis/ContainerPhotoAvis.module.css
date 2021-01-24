@@ -1,0 +1,22 @@
+.photoAvis {
+    margin: 0 auto;
+    width: 920px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.photoAvis p {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 920px) {
+    .photoAvis {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

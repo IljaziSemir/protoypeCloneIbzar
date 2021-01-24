@@ -1,0 +1,54 @@
+.containerMessage {
+    width: 700px;
+    height: 250px;
+    display: grid;
+    grid-template-areas: 
+                "a b"
+                ". c"
+                ". c";
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 20px;
+}
+
+.one {
+    grid-area: a;
+    justify-self: center;
+    align-self: center;
+}
+
+.two {
+    grid-area: b;
+    align-self: center;
+}
+
+.four {
+    grid-area: c;
+    padding-right: 20px;
+}
+
+.containerNomNote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nom , .titreAvis{
+    font-size: 19px;
+}
+
+@media screen and (max-width: 920px) {
+    .containerMessage {
+        width: 300px;
+    }
+
+    .four {
+        overflow: hidden;
+    }
+
+    .nom , .titreAvis{
+        font-size: 14px;
+    }
+}
+
+

@@ -1,0 +1,52 @@
+* {
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: normal;
+  line-height: 35px;
+  word-spacing: 4px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 26px;
+  word-spacing: 2px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+svg {
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+
+@media screen and (max-width: 920px) {
+    h2 {
+      font-size: 30px;
+    }
+
+    div {
+      font-size: 12px;
+    }
+
+}
